@@ -56,3 +56,45 @@ Before proceeding, please ensure that you have logged out of any accounts linked
 ![10_overview.png](img/10_overview.png)
 
 </details>
+
+<details> 
+  <summary>Basic navigation</summary>
+
+Upon completing the registration, you will be presented with an overview of the Azure Education platform, along with details about the credits you have redeemed. Check that before continuing.
+
+![10_overview.png](img/10_overview.png)
+
+After reviewing the Azure Education overview, you can easily navigate to the Azure homepage by clicking on the Microsoft Azure logo located in the top right side bar. This will take you to the main dashboard, where you can access various services, resources, and manage your account settings.
+
+![10_home.png](img/10_home.png)
+
+As you can see the Azure homepage provides multiple ways to access services. The left-side dropdown menu, where favorite services can be pinned, offers a convenient and quick navigation option. Additionally, the search bar allows you to find and access any service efficiently by entering keywords. Whether through the dropdown menu, search bar, or other elements on the homepage they serve a similar porpuse which is to access resources.
+
+We have a set of prompt buttons positioned in the upper right corner:
+
+![12_others.png](img/12_others.png)
+
+1. **Cloud Shell:** Allows users to run commands and scripts directly from the Azure portal without local installations. It provides a command-line interface with pre-installed tools, making resource management, task execution, and scripting convenient.
+
+2. **Directories + Subscription (deprecated):** Formerly used for managing directories and subscriptions, this feature is now deprecated. You can find it now in Settings.
+
+3. **Notifications:** Users can monitor important updates, alerts, and events related to their Azure resources in real-time. Notifications help users stay informed and take timely actions based on critical changes.
+
+4. **Settings:** Enables users to customize their Azure portal experience by configuring various settings. Users can adjust preferences, personalize their dashboard, and modify interface settings.
+
+5. **Support:** Provides a direct pathway for users to connect with Azure support services. Users can seek technical assistance, submit support tickets, and explore additional support options to address any issues or queries encountered during Azure usage.
+
+6. **Feedback:** Interface to send feeback about Azure.
+   
+
+Feel free to click in more services or all services in order to get a quick overview of all the services available.
+
+![11_allservices.png](img/11_allservices.png)
+
+Also you can try typing free services in the search bar.
+
+![11_free.png](img/11_free.png)
+
+The Azure Free Tier is a program by Microsoft Azure that allows users to explore and use a limited amount of Azure services for free. It's an excellent way for individuals, developers, and small businesses to get hands-on experience with Azure without incurring costs.
+
+</details>
