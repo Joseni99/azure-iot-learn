@@ -59,6 +59,8 @@ Before proceeding, please ensure that you have logged out of any accounts linked
 
 <details> 
   <summary>Basic navigation</summary>
+  
+---
 
 Upon completing the registration, you will be presented with an overview of the Azure Education platform, along with details about the credits you have redeemed. Check that before continuing.
 
