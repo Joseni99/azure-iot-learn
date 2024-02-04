@@ -23,7 +23,7 @@ https://azure.microsoft.com/en-gb/free/students/
 
 2- Sign in into microsoft website and click Start free.
 
-![01_azurestudents.png](img\01_azurestudents.png)
+![01_azurestudents.png](img/01_azurestudents.png)
 
 3- Click to create a new account if you do not have one with you academic email. 
 
