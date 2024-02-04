@@ -59,7 +59,7 @@ Before proceeding, please ensure that you have logged out of any accounts linked
 
 <details> 
   <summary>Basic navigation</summary>
-  
+
 ---
 
 Upon completing the registration, you will be presented with an overview of the Azure Education platform, along with details about the credits you have redeemed. Check that before continuing.
@@ -87,7 +87,6 @@ We have a set of prompt buttons positioned in the upper right corner:
 5. **Support:** Provides a direct pathway for users to connect with Azure support services. Users can seek technical assistance, submit support tickets, and explore additional support options to address any issues or queries encountered during Azure usage.
 
 6. **Feedback:** Interface to send feeback about Azure.
-   
 
 Feel free to click in more services or all services in order to get a quick overview of all the services available.
 
@@ -98,5 +97,34 @@ Also you can try typing free services in the search bar.
 ![11_free.png](img/11_free.png)
 
 The Azure Free Tier is a program by Microsoft Azure that allows users to explore and use a limited amount of Azure services for free. It's an excellent way for individuals, developers, and small businesses to get hands-on experience with Azure without incurring costs.
+
+</details>
+
+<details> 
+  <summary>Azure Cloud Shell</summary>
+
+---
+
+Azure Cloud Shell is an interactive and authenticated terminal accessible from a web browser for managing Azure resources. It provides the flexibility to choose between the Bash or PowerShell shell experiences based on individual preferences and familiarity.
+
+The Cloud Shell environment runs on a temporary host assigned to each session and user. A Cloud Shell session has a timeout period of 20 minutes without interactive activity, after which it automatically closes. Additionally, Cloud Shell offers persistent storage in Azure through a 5 GB file share, allowing users to retain files and configurations across sessions.
+
+Microsoft manages Cloud Shell, relieving users from the burden of administration. Cloud Shell incorporates popular command-line tools and supports various programming languages. It securely and automatically authenticates to provide immediate access to resources using the Azure CLI or Azure PowerShell cmdlets. You can refer to the list of installed tools in Cloud Shell for a comprehensive overview.
+
+
+
+1- Click on Cloud Shell icon
+
+![20_bash.png](img/20_bash.png)
+
+2- Click on create storage
+
+![21_file.png](img/21_file.png)
+
+3- Wait until Cloud Shell is ready
+
+![22_cs.png](img/22_cs.png)
+
+In this particular practice, a dual approach to deployment has been chosen. Cloud Shell will be employed for certain components, leveraging its command-line capabilities, while the graphical user interface (GUI) will be utilized for other specific tasks so you will learn both ways.
 
 </details>
