@@ -111,8 +111,6 @@ The Cloud Shell environment runs on a temporary host assigned to each session an
 
 Microsoft manages Cloud Shell, relieving users from the burden of administration. Cloud Shell incorporates popular command-line tools and supports various programming languages. It securely and automatically authenticates to provide immediate access to resources using the Azure CLI or Azure PowerShell cmdlets. You can refer to the list of installed tools in Cloud Shell for a comprehensive overview.
 
-
-
 1- Click on Cloud Shell icon
 
 ![20_bash.png](img/20_bash.png)
@@ -126,5 +124,56 @@ Microsoft manages Cloud Shell, relieving users from the burden of administration
 ![22_cs.png](img/22_cs.png)
 
 In this particular practice, a dual approach to deployment has been chosen. Cloud Shell will be employed for certain components, leveraging its command-line capabilities, while the graphical user interface (GUI) will be utilized for other specific tasks so you will learn both ways.
+
+</details>
+
+<details> 
+  <summary>Azure Resource Hierarchy</summary>
+
+---
+
+Before proceeding further, it is essential to have a basic understanding of the Azure resource hierarchy. This involves gaining a foundational understanding of how different resources are organized and interconnected within the Azure environment.
+
+But first some definitions of basic concepts:
+
+**Azure Active Directory:** Is Microsoft's cloud-based identity and access management service. Azure Active Directory is designed to help organizations manage and secure user identities and access to applications and resources in the cloud. Nowadays is renamed to Azure Entra ID.
+
+
+
+&nbsp;
+
+![30_resources.png](img/30_resources.png)
+
+&nbsp;
+
+1. **Management Groups**
+
+At the top level of the hierarchy are **management groups**. Management groups provide a way to manage access, policies, and compliance for multiple subscriptions. They help in organizing subscriptions based on organizational structure or business divisions. Policies can be applied at the management group level to enforce governance standards across multiple subscriptions. A management group tree can support up to six levels of depth however this limit doesn’t include root or subscription level.
+
+2. **Subscriptions**
+
+Below management groups are **subscriptions**, which represent an agreement with Microsoft to use Azure services. Subscriptions are used to organize and manage resources such as virtual machines, databases, and storage accounts. Organizations often have multiple subscriptions to separate environments like development, testing, and production.
+
+3. **Resource Groups**
+
+Within a subscription, resources are organized into **resource groups**. A resource group is a logical container for resources, and it helps in managing and organizing resources based on their lifecycle, ownership, or environment. Resources within a resource group share the same lifecycle and are deployed, updated, and deleted together.
+
+4. **Resources**
+
+At the lowest level of the hierarchy are individual **resources**. These are the actual services or components you deploy, such as virtual machines, databases, storage accounts, etc. Resources are always associated with a resource group.
+
+&nbsp;
+
+In our case, if we access the management groups:
+
+&nbsp;
+
+![31_resourceg.png](img/31_resourceg.png)
+
+&nbsp;
+
+We can check that there is the tenant root group, which in turn is assigned to our Azure for Students subscription containing the credits we will utilize for conducting our laboratory.
+
+Each Microsoft Entra tenant is given a single top-level management group called the root management group. This root management group is built into the hierarchy to have all management groups and subscriptions fold up to it. This group allows global policies and Azure role assignments to be applied at the directory level.
 
 </details>
