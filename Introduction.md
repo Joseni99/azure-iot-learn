@@ -15,35 +15,53 @@ Virtualization’s flexibility makes it possible to provision a virtual server i
 
 ---
 
+Before proceeding, please ensure that you have logged out of any accounts linked to your computer. It is advisable to use private browsing mode in order to avoid account mistakes. 
+
+&nbsp;
+
 1- Click in the link to access Azure for Students.
 
 ```
 https://azure.microsoft.com/en-gb/free/students/
 ```
 
+&nbsp;
+
 2- Sign in into microsoft website and click Start free.
 
 ![01_azurestudents.png](img/01_azurestudents.png)
 
-3- Click to create a new account if you do not have one with you academic email. 
+&nbsp;
+
+3- Click to create a new account if you do not have one. Please DO NOT use your academic email here, it is possible that your institution already set up a tenant in Azure and you will not be able to perform actions on the Azure Active Directory or the so called Entra ID.
 
 ![02_createaccount.png](img/02_createaccount.png)
 
-Before proceeding, please ensure that you have logged out of any accounts linked to your computer. It is advisable to use private browsing mode in order to avoid account mistakes. Additionally, during the registration process, make sure to use your academic email for authentication. This step is crucial.
+&nbsp;
+
+Do NOT use your academic email in the account creation step. This step is crucial.
 
 ![03_setpass.png](img/03_setpass.png)
+
+&nbsp;
 
 4- Fill the details of location and date of birth.
 
 ![04_birth.png](img/04_birth.png)
 
+&nbsp;
+
 5- After filling out the registration form, proceed to verify your email address. Check your inbox for a verification message and follow the provided instructions to confirm your registration. This step is essential to ensure the security and validity of your account.
 
 ![05_verify.png](img/05_verify.png)
 
+&nbsp;
+
 6- Complete the necessary information in the registration form, and be sure to replace the "School Name" with the name of your educational institution. Also the institutional email.
 
 ![07_data.png](img/07_data.png)
+
+&nbsp;
 
 7- Set up your Azure profile as a student and receive the 100\$ voucher, simply complete the form. Ensure that you provide accurate and valid information during the registration. Once the form is submitted, the system will automatically load it in your account. This voucher can be used for various Azure services, allowing you to explore and utilize Microsoft's cloud platform for educational purposes.
 
@@ -51,9 +69,31 @@ Before proceeding, please ensure that you have logged out of any accounts linked
 
 ![09_waitset.png](img/09_waitset.png)
 
+&nbsp;
+
 8- Congratulations on successfully creating your first Azure account! This marks the beginning of your journey into Microsoft's cloud platform.
 
 ![10_overview.png](img/10_overview.png)
+
+&nbsp;
+
+*If you face any issues in the voucher retrieval, like an endless loop or broken redirects please go to this link and log-in directly type education in the search bar and go to the education overview:
+
+```
+https://portal.azure.com/
+```
+
+If there is credits in USD or EUR in the overview page you are ready to go.
+
+If not, try to repeat the steps mentioned above until you complete all the dialogs by clicking in sign up now.
+
+![010_directmode.png](img/010_directmode.png)
+
+&nbsp;
+
+There should be a prompt like this after clicking sign up now.
+
+![011_alternative.png](img/011_alternative.png)
 
 </details>
 
@@ -111,13 +151,19 @@ The Cloud Shell environment runs on a temporary host assigned to each session an
 
 Microsoft manages Cloud Shell, relieving users from the burden of administration. Cloud Shell incorporates popular command-line tools and supports various programming languages. It securely and automatically authenticates to provide immediate access to resources using the Azure CLI or Azure PowerShell cmdlets. You can refer to the list of installed tools in Cloud Shell for a comprehensive overview.
 
+&nbsp;
+
 1- Click on Cloud Shell icon
 
 ![20_bash.png](img/20_bash.png)
 
+&nbsp;
+
 2- Click on create storage
 
 ![21_file.png](img/21_file.png)
+
+&nbsp;
 
 3- Wait until Cloud Shell is ready
 
@@ -138,11 +184,9 @@ But first some definitions of basic concepts:
 
 **Azure Active Directory:** Is Microsoft's cloud-based identity and access management service. Azure Active Directory is designed to help organizations manage and secure user identities and access to applications and resources in the cloud. Nowadays is renamed to Azure Entra ID.
 
-
-
 &nbsp;
 
-![30_resources.png](img/30_resources.png)
+<img title="" src="img/30_resources.png" alt="30_resources.png" width="383">
 
 &nbsp;
 
@@ -166,8 +210,6 @@ At the lowest level of the hierarchy are individual **resources**. These are the
 
 In our case, if we access the management groups:
 
-&nbsp;
-
 ![31_resourceg.png](img/31_resourceg.png)
 
 &nbsp;
@@ -175,5 +217,90 @@ In our case, if we access the management groups:
 We can check that there is the tenant root group, which in turn is assigned to our Azure for Students subscription containing the credits we will utilize for conducting our laboratory.
 
 Each Microsoft Entra tenant is given a single top-level management group called the root management group. This root management group is built into the hierarchy to have all management groups and subscriptions fold up to it. This group allows global policies and Azure role assignments to be applied at the directory level.
+
+</details>
+
+<details> 
+  <summary>SLAs and Pricing </summary>
+
+A. What is an SLA?
+Service Level Agreements, or SLAs, are the backbone of trust between cloud service providers and customers. They define the minimum levels of service a customer can expect and provide a foundation for accountability and reliability.
+
+```
+https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-Online-Services?lang=1
+```
+
+&nbsp;
+
+B. Azure SLA Overview
+Azure's SLAs are comprehensive, covering a wide array of services from virtual machines to storage and networking. By understanding the commitments made by Microsoft in these SLAs, organizations can make informed decisions about service selection based on their specific requirements.
+
+<img title="" src="file:///C:/Users/user01/Documents/GitKraken/azure-iot-learn/img/31_slacontents.png" alt="31_slacontents.png" width="374">
+
+&nbsp;
+C. SLA Metrics
+Azure SLAs commonly include metrics such as uptime percentage, response times, and data durability. It's crucial to grasp how these metrics are measured and reported, as this knowledge empowers organizations to assess the performance and reliability of their Azure services.
+
+<img title="" src="file:///C:/Users/user01/Documents/GitKraken/azure-iot-learn/img/32_slametrics.png" alt="32_slametrics.png" width="672">
+
+&nbsp;
+
+D. Real-world Examples
+Let's examine real-world scenarios where adherence to SLAs has been pivotal. Whether it's a critical business application relying on Azure services or a global-scale event stressing cloud infrastructure, understanding how SLAs come into play provides valuable insights into the practical implications of these agreements.
+
+This is an example of an azure architecture with serveral resources, but let's focus only on the Azure SQL databases in this exercise. It doesn't matter that we don't know what a database is, for now we will treat it as a simple service with a contracted agreement.
+
+![33_slaexercise.png](C:\Users\user01\Documents\GitKraken\azure-iot-learn\img\33_slaexercise.png)
+
+&nbsp;
+
+Let's calculate the SLA of a single SQL database:
+
+1. **Azure SQL Database SLA (Single Database):**
+   - SLA: 99.99% (Check the documentation refered above.)
+
+The formula for calculating downtime is:
+
+Downtime=(1−SLA)×TotalTime
+
+Downtime=(1−0.9999)×43,200 (1 month in minutes)
+
+Downtime=0.0001×43,200
+
+Downtime=4.32minutes
+
+So, for a single Azure SQL Database with a 99.99% SLA, the allowable downtime in a month is 4.32 minutes.
+
+&nbsp;
+
+Let's calculate the SLA of a 2 georedundant SQL database then:
+
+2. **Azure SQL Database with Redundancy (e.g., Geo-Replication):**
+   - Assume you have set up geo-replication for your Azure SQL Database to a different region, providing a higher level of redundancy.
+   - SLA combined: ? (Check the documentation refered above.)
+
+HIDE*
+
+Now, let's calculate the allowable downtime for the geo-replicated Azure SQL Database:
+
+Downtime=(1−0.99995)×43,200
+
+Downtime=0.00005×43,200
+
+Downtime=2.16minutes
+
+So, with geo-replication in place, the allowable downtime for the Azure SQL Database improves to 2.16 minutes in a month.
+
+HIDE*
+
+&nbsp;
+
+Having covered the essentials of Service Level Agreements (SLAs), it's time to dive into the financial aspect of Azure. Azure operates on a pay-as-you-go model, The "Pay-as-You-Go" model in Microsoft Azure refers to a pricing and billing approach where users pay for the cloud services they consume based on actual usage. This model is designed to provide flexibility and cost-effectiveness, especially for businesses and individuals who may have varying workloads or unpredictable resource requirements. 
+
+This makes really hard to calculate the costs of a service because several variables intervene in the operation, but there is a tool provided that will help us with our estimations.
+
+```
+https://azure.microsoft.com/en-gb/pricing/calculator/
+```
 
 </details>
