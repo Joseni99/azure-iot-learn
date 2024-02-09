@@ -123,7 +123,7 @@ You can download it to check it if you want.
 
 Search "Users" and click or you can go to Azure Entra ID and select the "Users" tab and click +New user.
 
-![4 (1).png](C:\Users\user01\Documents\GitKraken\azure-iot-learn\img\4%20(1).png)
+<img src="img\4%20(1).png" title="" alt="4 (1).png" width="646">
 
 10a- Call the user principal name user01, generate a password or set one youself, and write both down. We are going to use it later.
 
@@ -141,7 +141,7 @@ Click on Review + create -> Create
 
 12- In members tab add the user we created called user01.
 
-![4 (10).png](C:\Users\user01\Documents\GitKraken\azure-iot-learn\img\4%20(10).png)
+<img title="" src="img\4%20(10).png" alt="4 (10).png" width="640">
 
 13- Open a private tab and login with the user we have created
 
