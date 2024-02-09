@@ -6,7 +6,7 @@
 
 The technology that lies at the core of all cloud operations is virtualization. As illustrated in the image below, virtualization lets you divide the hardware resources of a single physical server into smaller units. That physical server could therefore host multiple virtual machines (VMs) running their own complete operating systems, each with its own memory, storage, and network access.
 
-![001vm.png](img/001vm.png)
+<img title="" src="img/001vm.png" alt="001vm.png" width="499">
 
 Virtualization’s flexibility makes it possible to provision a virtual server in a matter of seconds, run it for exactly the time your project requires, and then shut it down. The resources released will become instantly available to other workloads.
 
@@ -250,7 +250,7 @@ Let's examine real-world scenarios where adherence to SLAs has been pivotal. Whe
 
 This is an example of an azure architecture with serveral resources, but let's focus only on the Azure SQL databases in this exercise. It doesn't matter that we don't know what a database is, for now we will treat it as a simple service with a contracted agreement.
 
-![33_slaexercise.png](img/33_slaexercise.png)
+<img src="img/33_slaexercise.png" title="" alt="33_slaexercise.png" width="509">
 
 &nbsp;
 
@@ -304,3 +304,33 @@ https://azure.microsoft.com/en-gb/pricing/calculator/
 ```
 
 </details>
+
+Now lets do review the steps to calculate the cost of a service in Azure, which in this case is a virtual machine
+
+&nbsp;
+
+Select Azure Services:
+Choose the specific Azure services you plan to use, either by browsing categories or using the search feature.
+
+<img title="" src="img\34_servicesp.png" alt="34_servicesp.png" width="640">
+
+Configure Services:
+For each selected service, configure parameters such as region, virtual machine type, and storage to match your project's requirements.
+
+Adjust Usage Details:
+Modify usage details like the number of hours a resource will run, data storage, or transactions processed to reflect your specific needs.
+
+Review Estimate:
+The calculator provides a real-time estimate as you configure services. Review it to ensure it aligns with your expectations for monthly costs.
+
+<img title="" src="img\35_pexercise.png" alt="35_pexercise.png" width="640">
+
+Save or Share the Estimate:
+If you have an Azure account, save the estimate for future reference. You can also share it by generating a unique link.
+
+Export as CSV (Optional):
+Export the estimate as a CSV file if you need documentation or further analysis.
+
+<img src="img\36_share.png" title="" alt="36_share.png" width="644">
+
+Using the Azure Pricing Calculator empowers users to make informed decisions about resource allocation and budgeting before deploying services on the Azure platform. This proactive approach helps in optimizing costs and ensuring efficient resource utilization.
