@@ -65,11 +65,11 @@ https://portal.azure.com/
 
 2- We need to create a blob storage to save the clients data. As we learnt, resources should be in resources groups so we are going to create that first.
 
-Seach "Resource groups"
+Search "Resource groups".
 
 <img src="img\4%20(5).png" title="" alt="4 (5).png" width="590">
 
-3- In side of resource groups click on +Create
+3- Inside of resource groups click on +Create
 
 Select the subscription and call the resource group EU-resource-group, and the region in West Europe, here what we are doing is go give it a name and selecting the location of our resources.
 
@@ -107,7 +107,7 @@ AZURE_CONTAINER_NAME=practice1
 FILE_NAME=kitty.png
 ```
 
-Upload the file using AZURE's API call
+Upload the file using AZURE's API call.
 
 ```
 az storage blob upload --file kitty.png --account-name $AZURE_STORAGE_ACCOUNT --container-name $AZURE_CONTAINER_NAME --name kitty.png
