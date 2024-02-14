@@ -18,55 +18,37 @@ Virtualization’s flexibility makes it possible to provision a virtual server i
 
 **A:** Azure prioritizes security through a multi-layered approach that encompasses physical security, network security, identity and access management, data encryption, and compliance certifications. Microsoft invests heavily in security measures, employs advanced threat intelligence, and regularly updates its security protocols to address emerging threats.
 
-
-
 **Q: How does Azure ensure the physical security of its data centers?**
 
 **A:** Azure data centers are equipped with state-of-the-art security features, including strict access controls, surveillance systems, and biometric authentication. Only authorized personnel have access to the physical infrastructure, and security measures are implemented 24/7 to safeguard against unauthorized entry or tampering.
-
-
 
 **Q: What measures does Azure take to protect data during transmission?**
 
 **A:** Azure uses industry-standard encryption protocols to secure data in transit. Data transmitted between users and Azure services is encrypted using protocols like HTTPS, ensuring that even if intercepted, the data remains secure. Additionally, Azure offers Virtual Private Network (VPN) and ExpressRoute options for private, dedicated connections.
 
-
-
 **Q: How does Azure manage identity and access control?**
 
 **A:** Azure employs robust identity and access management solutions such as Azure Entra ID. Users can implement multi-factor authentication, role-based access control (RBAC), and conditional access policies to control and monitor access to resources, reducing the risk of unauthorized access.
-
-
 
 **Q: In what ways does Azure protect data at rest within its services?**
 
 **A:** Azure provides built-in encryption for data at rest, ensuring that stored information remains secure. Azure Storage services, databases, and virtual machines all support encryption mechanisms. Customers can also bring their encryption keys or use Azure Key Vault for centralized key management.
 
-
-
 **Q: How does Azure comply with regulatory standards to ensure data privacy and protection?**
 
 **A:** Azure complies with a wide range of international and industry-specific compliance standards, including ISO 27001, GDPR, HIPAA, and many more. Regular audits and certifications validate Azure's adherence to these standards, providing customers with assurance that their data is handled in accordance with regulatory requirements.
-
-
 
 **Q: What role does Azure play in helping customers recover from data loss or disasters?**
 
 **A:** Azure offers robust backup and disaster recovery solutions. Services like Azure Backup and Azure Site Recovery enable customers to create comprehensive backup strategies and implement disaster recovery plans. This ensures data availability and minimizes downtime in the event of unexpected incidents.
 
-
-
 **Q: How can Azure help organizations monitor and respond to security threats in real-time?**
 
 **A:** Azure Security Center provides continuous monitoring of cloud resources and offers advanced threat detection capabilities. It uses machine learning and behavioral analytics to identify and respond to potential security threats, providing insights and recommendations to enhance overall security posture.
 
-
-
 **Q: Can Azure customers have confidence in the privacy of their data?**
 
 **A:** Yes, Azure is committed to respecting customer privacy. Microsoft's data handling practices prioritize customer control and transparency. Azure's privacy controls, coupled with adherence to strict privacy policies, empower customers to manage their data securely within the Azure environment.
-
-
 
 Of course there is a caveat here, Azure is as secure also how good practices are implemented by users, here is where the shared responsability model comes in.
 
@@ -75,8 +57,6 @@ The shared responsibility model is a security framework that defines the respons
 Example: In a cloud computing environment, the provider (Azure) is responsible for securing the physical infrastructure, network, and hypervisor, while the customer is responsible for securing their data, configuring access controls, and ensuring the security of applications deployed on the cloud platform.
 
 It will not work if only one of the sides adopts good practices, there is no point in using encryption, securing resources and so on if we simply use an administrator account  with password 1234 without 2FA.
-
-
 
 ### Azure services overview
 
@@ -103,12 +83,6 @@ Microsoft Azure offers a wide range of services across various categories, inclu
 9. **Azure IoT Hub:** A fully managed service for securely connecting, monitoring, and managing IoT devices.
 
 10. **Azure DevOps Services:** Provides a set of development tools for version control, build automation, release management, and more.
-
-11. **Azure Functions:** Allows you to build and run event-triggered functions without having to explicitly provision or manage infrastructure.
-
-12. **Azure DevOps Services:** A set of development tools for planning, tracking, coding, building, testing, and deploying applications.
-
-
 
 ### Azure Datacenter Architecture
 

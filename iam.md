@@ -71,7 +71,9 @@ Search "Resource groups".
 
 3- Inside of resource groups click on +Create
 
-Select the subscription and call the resource group EU-resource-group, and the region in West Europe, here what we are doing is go give it a name and selecting the location of our resources.
+Select the subscription and call the resource group EU-resource-group, and the region in West Europe, here what we are doing is go give it a name and selecting the location of our resources metadata, not the resources themselves. 
+
+The resource group stores metadata about the resources. Therefore, when you specify a location for the resource group, you are specifying where that metadata is stored. **For compliance reasons**, you may need to ensure that your data is stored in a particular region.
 
 <img src="img\4%20(6).png" title="" alt="4 (6).png" width="595">
 
@@ -167,7 +169,7 @@ Spoiler, we cannot access the file due because we only can read and not list.
 
 <img title="" src="img\4%20(28).png" alt="4 (28).png" width="645">
 
-<img src="img\4%20(29).png" title="" alt="4 (29).png" width="435">
+<img title="" src="img\4%20(29).png" alt="4 (29).png" width="317">
 
 This is a perfect example of how an authenticated user lacks permissions to delete the file, showcasing how Azure RBAC (Role-Based Access Control) operates effectively.
 
