@@ -95,6 +95,8 @@ The networking architecture of Azure VMs is designed to facilitate seamless conn
 
 4. **Load Balancers:** Azure Load Balancers distribute incoming network traffic across multiple VMs to ensure high availability and reliability. They play a crucial role in optimizing resource utilization and preventing overloads on specific VMs.
 
+5. 
+
 # Additional Costs
 
 When you create a virtual machine, you're also creating resources that support the virtual machine. These resources come with their own costs that should be considered.

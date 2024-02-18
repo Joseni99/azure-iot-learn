@@ -70,6 +70,44 @@ There are limits to the number of Azure resources that you can deploy. Most Azur
 
 Virtual networks and subnets span all availability zones in a region. You don't need to divide them by availability zones to accommodate zonal resources. For example, if you configure a zonal VM, you don't have to take into consideration the virtual network when selecting the availability zone for the VM. The same is true for other zonal resources.
 
+### Network design example
+
+In Microsoft Azure, subnet design is an essential aspect of creating a Virtual Network (VNet) to host various resources. Let's consider an example scenario for a company using Azure with different services:
+
+1. **Frontend Web Servers**: Public-facing web servers.
+2. **Backend Application Servers**: Running backend services.
+3. **Database Servers**: Storing application data.
+4. **Management Subnet**: For administrative tools and services.
+
+Here's a basic example:
+
+- **VNet Address Space**: 10.1.0.0/16
+
+- **Frontend Web Servers Subnet**: 10.1.1.0/24
+  
+  - Usable addresses: 10.1.1.1 to 10.1.1.254
+
+- **Backend Application Servers Subnet**: 10.1.2.0/24
+  
+  - Usable addresses: 10.1.2.1 to 10.1.2.254
+
+- **Database Servers Subnet**: 10.1.3.0/24
+  
+  - Usable addresses: 10.1.3.1 to 10.1.3.254
+
+- **Management Subnet**: 10.1.4.0/24
+  
+  - Usable addresses: 10.1.4.1 to 10.1.4.254
+
+In this example:
+
+- The Frontend Web Servers subnet is exposed to the internet.
+- The Backend Application Servers communicate with the Frontend and Database subnets.
+- The Database Servers subnet stores sensitive data and communicates with the Backend subnet.
+- The Management Subnet is used for administrative tools and services.
+
+Azure provides (NACLs) to control traffic between subnets, providing an additional layer of security in your design. Remember that this is a simplified example, and in a real-world scenario, you might have additional considerations like high availability, scalability, and redundancy.
+
 ## Pricing
 
 There's no charge for using Azure Virtual Network. It's free of cost.
