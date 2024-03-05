@@ -133,8 +133,8 @@ Assume you monitor the access patterns over a month:
 
 <details>
 <summary>Hidden answer</summary>
-1. **Frequently Accessed User Profiles:**
 
+1. **Frequently Accessed User Profiles:**
 - The access pattern aligns with expectations. No adjustment needed; keep it in the Hot Access Tier.
   
   2. **Monthly Analytics Reports:**
