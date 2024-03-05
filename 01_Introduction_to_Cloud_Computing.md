@@ -4,7 +4,9 @@
 
 The technology that lies at the core of all cloud operations is virtualization. As illustrated in the image below, virtualization lets you divide the hardware resources of a single physical server into smaller units. That physical server could therefore host multiple virtual machines (VMs) running their own complete operating systems, each with its own memory, storage, and network access.
 
-<img align="middle" title="" src="img/001vm.png" alt="001vm.png" width="499">
+<div style="text-align:center;">
+    <img align="middle" title="" src="img/001vm.png" alt="001vm.png" width="499">
+</div>
 
 Virtualization’s flexibility makes it possible to provision a virtual server in a matter of seconds, run it for exactly the time your project requires, and then shut it down. The resources released will become instantly available to other workloads.
 
