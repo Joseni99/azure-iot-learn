@@ -55,6 +55,7 @@ Do NOT use your academic email in the account creation step. This step is crucia
 <p align="center">
 <img title="" src="img/08_profile.png" alt="08_profile.png" width="550">
 </p>
+
 <p align="center">
 <img title="" src="img/09_waitset.png" alt="09_waitset.png" width="550">
 </p>
@@ -91,13 +92,16 @@ There should be a prompt like this after clicking sign up now.
 
 Upon completing the registration, you will be presented with an overview of the Azure Education platform, along with details about the credits you have redeemed. Check that before continuing.
 
+<p align="center">
 <img title="" src="img/10_overview.png" alt="10_overview.png" width="900">
+</p>
 
 After reviewing the Azure Education overview, you can easily navigate to the Azure homepage by clicking on the Microsoft Azure logo located in the top right side bar. This will take you to the main dashboard, where you can access various services, resources, and manage your account settings.
 
 <p align="center">
 <img title="" src="img/10_home.png" alt="10_home.png" width="900">
 </p>
+
 As you can see the Azure homepage provides multiple ways to access services. The left-side dropdown menu, where favorite services can be pinned, offers a convenient and quick navigation option. Additionally, the search bar allows you to find and access any service efficiently by entering keywords. Whether through the dropdown menu, search bar, or other elements on the homepage they serve a similar porpuse which is to access resources.
 
 We have a set of prompt buttons positioned in the upper right corner:
@@ -105,6 +109,7 @@ We have a set of prompt buttons positioned in the upper right corner:
 <p align="center">
 <img title="" src="img/12_others.png" alt="12_others.png" width="900">
 </p>
+
 1. **Cloud Shell:** Allows users to run commands and scripts directly from the Azure portal without local installations. It provides a command-line interface with pre-installed tools, making resource management, task execution, and scripting convenient.
 
 2. **Directories + Subscription (deprecated):** Formerly used for managing directories and subscriptions, this feature is now deprecated. You can find it now in Settings.
@@ -122,7 +127,9 @@ Feel free to click in more services or all services in order to get a quick over
 <p align="center">
 <img title="" src="img/11_allservices.png" alt="11_allservices.png" width="900">
 </p>
+
 Also you can try typing free services in the search bar.
+
 <p align="center">
 <img title="" src="img/11_free.png" alt="11_free.png" width="900">
 </p>
@@ -159,4 +166,5 @@ Microsoft manages Cloud Shell, relieving users from the burden of administration
 <p align="center">
 <img src="img/22_cs.png" title="" alt="22_cs.png" width="900">
 </p>
+
 In this particular practice, a dual approach to deployment has been chosen. Cloud Shell will be employed for certain components, leveraging its command-line capabilities, while the graphical user interface (GUI) will be utilized for other specific tasks so you will learn both ways.
