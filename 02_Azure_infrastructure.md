@@ -10,7 +10,9 @@ Every day, customers around the world connect and pass trillions of requests to 
 
 The [Microsoft global network](https://azure.microsoft.com/global-infrastructure/global-network/) (WAN) is a central part of delivering a great cloud experience. The global network connects our Microsoft [data centers](https://azure.microsoft.com/global-infrastructure/) across 61 Azure regions with a large mesh of edge-nodes strategically placed around the world. The Microsoft global network offers both the availability, capacity, and the flexibility to meet any demand.
 
-![Diagram of Microsoft global network.](https://learn.microsoft.com/en-us/azure/networking/media/microsoft-global-network/microsoft-global-wan.png)
+<p align="center">
+<img title="" src="https://learn.microsoft.com/en-us/azure/networking/media/microsoft-global-network/microsoft-global-wan.png" alt="Diagram of Microsoft global network." width="600">
+</p>
 
 &nbsp;
 
@@ -73,4 +75,8 @@ Datacenter locations are selected by using rigorous vulnerability risk assessmen
 
 The following diagram shows several example Azure regions. Regions 1 and 2 support availability zones.
 
-<img title="" src="https://learn.microsoft.com/en-us/azure/reliability/media/regions-availability-zones.png" alt="Screenshot of physically separate availability zone locations within an Azure region." width="659">
+<p align="center">
+<img title="" src="https://learn.microsoft.com/en-us/azure/reliability/media/regions-availability-zones.png" alt="Screenshot of physically separate availability zone locations within an Azure region." width="600">
+</p>
+
+
