@@ -152,14 +152,12 @@ Microsoft manages Cloud Shell, relieving users from the burden of administration
 <p align="center">
 <img src="img/20_bash.png" title="" alt="20_bash.png" width="900">
 </p>
- 
 
 2- Click on create storage
 
 <p align="center">
 <img src="img/21_file.png" title="" alt="21_file.png" width="900">
 </p>
- 
 
 3- Wait until Cloud Shell is ready
 
