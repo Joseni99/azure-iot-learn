@@ -17,31 +17,31 @@ https://azure.microsoft.com/en-gb/free/students/
 2- Sign in into microsoft website and click Start free.
 
 <p align="center">
-<img title="" src="img/01_azurestudents.png" alt="01_azurestudents.png" width="500">
+<img title="" src="img/01_azurestudents.png" alt="01_azurestudents.png" width="400">
 </p>
 
 3- Click to create a new account if you do not have one. Please DO NOT use your academic email here, it is possible that your institution already set up a tenant in Azure and you will not be able to perform actions on the Azure Active Directory or the so called Entra ID.
 
 <p align="center">
-<img title="" src="img/02_createaccount.png" alt="02_createaccount.png" width="450">
+<img title="" src="img/02_createaccount.png" alt="02_createaccount.png" width="400">
 </p>
 
 Do NOT use your academic email in the account creation step. This step is crucial.
 
 <p align="center">
-<img title="" src="img/03_setpass.png" alt="02_createaccount.png" width="450">
+<img title="" src="img/03_setpass.png" alt="02_createaccount.png" width="400">
 </p>
 
 4- Fill the details of location and date of birth.
 
 <p align="center">
-<img title="" src="img/04_birth.png" alt="04_birth.png" width="450">
+<img title="" src="img/04_birth.png" alt="04_birth.png" width="400">
 </p>
 
 5- After filling out the registration form, proceed to verify your email address. Check your inbox for a verification message and follow the provided instructions to confirm your registration. This step is essential to ensure the security and validity of your account.
 
 <p align="center">
-<img title="" src="img/05_verify.png" alt="05_verify.png" width="450">
+<img title="" src="img/05_verify.png" alt="05_verify.png" width="400">
 </p>
 
 6- Complete the necessary information in the registration form, and be sure to replace the "School Name" with the name of your educational institution. Also the institutional email.
@@ -62,7 +62,7 @@ Do NOT use your academic email in the account creation step. This step is crucia
 8- Congratulations on successfully creating your first Azure account! This marks the beginning of your journey into Microsoft's cloud platform.
 
 <p align="center">
-<img title="" src="img/10_overview.png" alt="10_overview.png" width="643">
+<img title="" src="img/10_overview.png" alt="10_overview.png" width="800">
 </p>
 
 *If you face any issues in the voucher retrieval, like an endless loop or broken redirects please go to this link and log-in directly type education in the search bar and go to the education overview:
@@ -76,13 +76,13 @@ If there is credits in USD or EUR in the overview page you are ready to go.
 If not, try to repeat the steps mentioned above until you complete all the dialogs by clicking in sign up now.
 
 <p align="center">
-<img title="" src="img/010_directmode.png" alt="010_directmode.png" width="648">
+<img title="" src="img/010_directmode.png" alt="010_directmode.png" width="800">
 </p>
 
 There should be a prompt like this after clicking sign up now.
 
 <p align="center">
-<img title="" src="img/011_alternative.png" alt="011_alternative.png" width="648">
+<img title="" src="img/011_alternative.png" alt="011_alternative.png" width="700">
 </p>
 
 ## Basic navigation
