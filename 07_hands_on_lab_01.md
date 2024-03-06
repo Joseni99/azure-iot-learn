@@ -138,9 +138,9 @@ https://portal.azure.com/
    <img title="" src="img\4%20(22).png" alt="4 (22).png" width="316">
    </p>
 
-8. Now it is time to try if we can reach or kitty.png, remember is in a container of a storage account
-
-Spoiler, we cannot access the file due because we only can read and not list. 
+8. Now it is time to try if we can reach or kitty.png, remember is in a container of a storage account.
+   
+   Spoiler, we cannot access the file due because we only can read and not list. 
 
 <p align="center">
 <img title="" src="img\4%20(24).png" alt="4 (24).png" width="674">
