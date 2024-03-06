@@ -14,7 +14,7 @@ Here is an example of an AVN architecture:
 
 Key scenarios that you can accomplish with a virtual network include:
 
-- ##### Communication of Azure resources with the internet.
+- ### Communication of Azure resources with the internet.
   
   - All resources in a virtual network can communicate outbound with the internet, by default. You can also use a [public IP address](https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/virtual-network-public-ip-address), [NAT gateway](https://learn.microsoft.com/en-us/azure/nat-gateway/nat-overview), or [public load balancer](https://learn.microsoft.com/en-us/azure/load-balancer/load-balancer-overview) to manage your outbound connections. You can communicate inbound with a resource by assigning a public IP address or a public load balancer.
     
