@@ -1,3 +1,5 @@
+# Azure Virtual Machines
+
 Azure virtual machines are one of several types of [on-demand, scalable computing resources](https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/compute-decision-tree) that Azure offers. Typically, you choose a virtual machine when you need more control over the computing environment than the other choices offer. This article gives you information about what you should consider before you create a virtual machine, how you create it, and how you manage it.
 
 An Azure virtual machine gives you the flexibility of virtualization without having to buy and maintain the physical hardware that runs it. However, you still need to maintain the virtual machine by performing tasks, such as configuring, patching, and installing the software that runs on it.
@@ -14,20 +16,20 @@ There's always a multitude of design considerations when you build out an appl
 - The configuration of the virtual machine after it starts
 - The related resources that the virtual machine needs
 
-# Basics
+## Basics
 
-#### Locations
+### Locations
 
 There are multiple geographical regions around the world where you can create Azure resources. Usually, the region is called **location** when you create a virtual machine. For a virtual machine, the location specifies where the virtual hard disks will be stored.
 
-#### Availability
+### Availability
 
 There are multiple options to manage the availability of your virtual machines in Azure.
 
 - **[Availability Zones](https://learn.microsoft.com/en-us/azure/availability-zones/az-overview)** are physically separated zones within an Azure region. Availability zones guarantee virtual machine connectivity to at least one instance at least 99.99% of the time when you've two or more instances deployed across two or more Availability Zones in the same Azure region.
 - **[Virtual Machine Scale Sets](https://learn.microsoft.com/en-us/azure/virtual-machine-scale-sets/overview)** let you create and manage a group of load balanced virtual machines. The number of virtual machine instances can automatically increase or decrease in response to demand or a defined schedule. Scale sets provide high availability to your applications, and allow you to centrally manage, configure, and update many virtual machines. Virtual machines in a scale set can also be deployed into multiple availability zones, a single availability zone, or regionally.
 
-#### Sizes and pricing
+### Sizes and pricing
 
 The size of the virtual machine that you use is determined by the workload that you want to run. The size that you choose then determines factors such as processing power, memory, storage capacity, and network bandwidth. Azure offers a wide variety of sizes to support many types of uses.
 
@@ -42,7 +44,7 @@ The size of the virtual machine that you use is determined by the workload tha
 
 Azure charges an hourly price based on the virtual machine’s size and operating system. For partial hours, Azure charges only for the minutes used. Storage is priced and charged separately.
 
-# Disks
+## Disks
 
 Azure Disks are a type of block storage offered by Microsoft Azure, the cloud computing platform. They provide scalable and highly available storage that can be attached to Azure Virtual Machines (VMs) to support various workloads. Here are some key points about Azure Disks:
 
@@ -68,11 +70,13 @@ There is a lot more options and features that covering it in 1 session would be 
 https://learn.microsoft.com/en-us/azure/virtual-machines/managed-disks-overview
 ```
 
-#### Disk type comparison
+### Disk type comparison
 
 There are different managed disks types in Azure, so sometimes choosing one it is difficult, here is a cheat-sheet that can help:
 
-![Diagram of a decision tree for managed disk types.](https://learn.microsoft.com/en-us/azure/virtual-machines/media/disks-types/managed-disk-decision-tree.png#lightbox)
+<p align="center">
+<img src="https://learn.microsoft.com/en-us/azure/virtual-machines/media/disks-types/managed-disk-decision-tree.png#lightbox" title="" alt="Diagram of a decision tree for managed disk types." width="635">
+</p>
 
 |                    | Ultra disk                                                                                                                     | Premium SSD v2                                                                                                    | Premium SSD                                    | Standard SSD                                                   | Standard HDD                            |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | -------------------------------------------------------------- | --------------------------------------- |
@@ -83,7 +87,7 @@ There are different managed disks types in Azure, so sometimes choosing one it i
 | Max IOPS           | 160,000                                                                                                                        | 80,000                                                                                                            | 20,000                                         | 6,000                                                          | 2,000, 3,000*                           |
 | Usable as OS Disk? | No                                                                                                                             | No                                                                                                                | Yes                                            | Yes                                                            | Yes                                     |
 
-# Networking
+## Networking
 
 The networking architecture of Azure VMs is designed to facilitate seamless connectivity while ensuring security and performance. At its core, the architecture includes the following key components:
 
@@ -97,7 +101,7 @@ The networking architecture of Azure VMs is designed to facilitate seamless conn
 
 5. 
 
-# Additional Costs
+## Additional Costs
 
 When you create a virtual machine, you're also creating resources that support the virtual machine. These resources come with their own costs that should be considered.
 
