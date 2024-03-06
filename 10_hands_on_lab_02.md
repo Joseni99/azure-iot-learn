@@ -171,7 +171,7 @@ sudo systemctl status apache2
 ```
 
 If everything is correct we should be seen something like this:
-
+```
 ● apache2.service - The Apache HTTP Server
      Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
      Active: active (running) since Thu 2020-04-23 22:36:30 UTC; 20h ago
@@ -184,7 +184,7 @@ If everything is correct we should be seen something like this:
              ├─29437 /usr/sbin/apache2 -k start
              └─29438 /usr/sbin/apache2 -k start
 
-{
+```
 
 Ctrl+C to exit
 
