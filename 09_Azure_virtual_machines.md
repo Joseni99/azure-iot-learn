@@ -98,8 +98,8 @@ The networking architecture of Azure VMs is designed to facilitate seamless conn
 3. **Network Security Groups (NSGs):** NSGs act as virtual firewalls, allowing or denying traffic to and from Azure resources. They help control access to VMs, securing the network by defining rules based on source and destination IP addresses, ports, and protocols.
 
 4. **Load Balancers:** Azure Load Balancers distribute incoming network traffic across multiple VMs to ensure high availability and reliability. They play a crucial role in optimizing resource utilization and preventing overloads on specific VMs.
-
-5. 
+   
+   
 
 ## Additional Costs
 

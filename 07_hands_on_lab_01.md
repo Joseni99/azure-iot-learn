@@ -4,7 +4,7 @@
 
 What we are going to do in this practice is to cover the fundamentals about what we have learned. The summary of this practice is that we will test Azure RBAC by creating a user with only viewing permissions, while retaining ownership in our original account. We will compare the actions each user can perform and observe the outcomes when lacking sufficient permissions. Additionally, this part of the practice introduces the integration of Azure Storage Blobs with CloudShell. Although the details will be covered extensively in the following chapters, it's noteworthy that Azure Blobs is a system for storing unstructured data, providing a foundation for our current exploration.
 
-###### Corporative file storage
+### Corporative file storage
 
 A company needs to store unstructured data, such as photos, texts, executables, and more, in the cloud. Specifically, as this will be part of the backend solution, and access to these files will only occur through API requests for various workloads, the idea of using services like OneDrive, Google Drive, and others has been discarded because there is no need of a user interface and pricing is key. The company also aims to create a user who can occasionally access these files to verify some files, but simultaneously, this user should not have the ability to delete files due to compliance concerns.
 
