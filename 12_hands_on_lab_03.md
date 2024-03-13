@@ -77,6 +77,7 @@ Paste the content and click on RUN.
 <p align="center">
 <img src="img\12%20(11).png" title="" alt="12 (11).png" width="645">
 </p>
+
 ## Part 2: Azure Data Studio
 
 Congratulations, you have deployed your first SQL database in Azure and created a table with a primary key and different columns. Let's use the Azure Data Studio to explore the database outside Azure webpage.
