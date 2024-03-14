@@ -105,7 +105,7 @@ Select Azure Services:
 Choose the specific Azure services you plan to use, either by browsing categories or using the search feature.
 
 <p align="center">
-<img title="" src="img\34_servicesp.png" alt="34_servicesp.png" width="640">
+<img title="" src="../img/34_servicesp.png" alt="34_servicesp.png" width="640">
 </p>
 
 - Configure Services:
@@ -118,7 +118,7 @@ Choose the specific Azure services you plan to use, either by browsing categorie
   The calculator provides a real-time estimate as you configure services. Review it to ensure it aligns with your expectations for monthly costs.
 
 <p align="center">
-<img title="" src="img\35_pexercise.png" alt="35_pexercise.png" width="640">
+<img title="" src="../img/35_pexercise.png" alt="35_pexercise.png" width="640">
 </p>
 
 - Save or Share the Estimate:
@@ -128,7 +128,7 @@ Choose the specific Azure services you plan to use, either by browsing categorie
   Export the estimate as a CSV file if you need documentation or further analysis.
 
 <p align="center">
-<img src="img\36_share.png" title="" alt="36_share.png" width="644">
+<img src="../img/36_share.png" title="" alt="36_share.png" width="644">
 </p>
 
 Using the Azure Pricing Calculator empowers users to make informed decisions about resource allocation and budgeting before deploying services on the Azure platform. This proactive approach helps in optimizing costs and ensuring efficient resource utilization.

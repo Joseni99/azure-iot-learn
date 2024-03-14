@@ -36,19 +36,19 @@ To establish a virtual machine (VM), it is essential to link it with a virtual n
    Name your virtual network EU-virtual-network and select the region as Europe and Germany West Central
 
 <p align="center">
-<img src="img\5%20(12).png" title="" alt="5 (12).png" width="632">
+<img src="../img/5%20(12).png" title="" alt="5 (12).png" width="632">
 </p>
 
 2. Go to the IP addresses, there is a default subnet created with a range of IPs, in this case is enough for us but in other cases you might have to first design your network architecture before trying to deploy de virtual network.
 
 <p align="center">
-<img src="img\5%20(3).png" title="" alt="5 (3).png" width="635">
+<img src="../img/5%20(3).png" title="" alt="5 (3).png" width="635">
 </p>
 
 3. Click on Review + create verify and wait for the deployment to finish.
 
 <p align="center">
-<img src="img\5%20(4).png" title="" alt="5 (4).png" width="638">
+<img src="../img/5%20(4).png" title="" alt="5 (4).png" width="638">
 </p>
 
 4. Open Cloud Shell, this time and lets create a Virtual Network through command line, this one will be the US region one.
@@ -68,13 +68,13 @@ az network vnet create \
     The successful execution shall deliver a response like this:
 
 <p align="center">
-<img src="img\5%20(5).png" title="" alt="5 (5).png" width="639">
+<img src="../img/5%20(5).png" title="" alt="5 (5).png" width="639">
 </p>
 
 5. Lets deploy our first VM, find in Azure VM an click on Create a virtual machine hosted by Azure.
 
 <p align="center">
-<img src="img\5%20(6).png" alt="5 (6).png" width="640">
+<img src="../img/5%20(6).png" alt="5 (6).png" width="640">
 </p>
 
 6. Establish the basic configuration of the machine:
@@ -90,7 +90,7 @@ az network vnet create \
    - Image: We are going to work on Ubuntu, so choose Ubuntu 20.04.
 
 <p align="center">
-<img src="img\5%20(13).png" title="" alt="5 (13).png" width="641">
+<img src="../img/5%20(13).png" title="" alt="5 (13).png" width="641">
 </p>
 
 - Size: Standard B1s, 1 vcpu and 1GiB, we do not need powerful machines in this practice, this size will be more than enought.
@@ -100,7 +100,7 @@ az network vnet create \
 - Others: Keep it default.
   
   <p align="center">
-  <img src="img\5%20(14).png" title="" alt="5 (14).png" width="641">
+  <img src="../img/5%20(14).png" title="" alt="5 (14).png" width="641">
   </p>
 7. Lets establish the disks configuration of our machine:
    
@@ -109,7 +109,7 @@ az network vnet create \
    - Delete with VM: This option will delete the disk when we remove the VM in order to avoid unwanted costs.
      
      <p align="center">
-     <img src="img\5%20(16).png" alt="5 (16).png" width="637">
+     <img src="../img/5%20(16).png" alt="5 (16).png" width="637">
      </p>
 
 8. Last step, the network configuration:
@@ -120,34 +120,34 @@ az network vnet create \
 - Delete public IP: This option will delete the public IP when we remove the VM in order to avoid unwanted costs.
   
   <p align="center">
-  <img src="img\5%20(15).png" title="" alt="5 (15).png" width="638">
+  <img src="../img/5%20(15).png" title="" alt="5 (15).png" width="638">
   </p>
 9. Click on Review+Create, and wait for the validation.
    
    <p align="center">
-   <img src="img\5%20(17).png" title="" alt="5 (17).png" width="640">
+   <img src="../img/5%20(17).png" title="" alt="5 (17).png" width="640">
    </p>
 
 10. Wait for the the deployment to complete and after that go the resource.
     
     <p align="center">
-    <img src="img\5%20(19).png" title="" alt="5 (19).png" width="642">
+    <img src="../img/5%20(19).png" title="" alt="5 (19).png" width="642">
     </p>
 
 11. Click on Connect in order to SSH our VM.
     
     <p align="center">
-    <img src="img\5%20(20).png" title="" alt="5 (20).png" width="642">
+    <img src="../img/5%20(20).png" title="" alt="5 (20).png" width="642">
     </p>
 
 12. Select SSH using Azure CLI and complete the prompt with Configure+connect.
     
     <p align="center">
-    <img title="" src="img\5%20(21).png" alt="5 (21).png" width="315">
+    <img title="" src="../img/5%20(21).png" alt="5 (21).png" width="315">
     </p>
 
 <p align="center">
-<img title="" src="img\5%20(22).png" alt="5 (22).png" width="480">
+<img title="" src="../img/5%20(22).png" alt="5 (22).png" width="480">
 </p>
 
 13. Now let's intall the apache web server in the Ubuntu server:
@@ -191,13 +191,13 @@ Ctrl+C to exit
 14. Now go back to the VM and get its public IP address an try to connect via browser.
     
     <p align="center">
-    <img src="img\5%20(23).png" title="" alt="5 (23).png" width="619">
+    <img src="../img/5%20(23).png" title="" alt="5 (23).png" width="619">
     </p>
 
 15. Ooops, seems somthing is not working:
     
     <p align="center">
-    <img src="img\5%20(24).png" title="" alt="5 (24).png" width="590">
+    <img src="../img/5%20(24).png" title="" alt="5 (24).png" width="590">
     </p>
 
 16. This is completely normal, rembember that we only opened port 22 in the configuration of the machine so there is no way our web server is going to serve the webpage via port 80.
@@ -205,19 +205,19 @@ Ctrl+C to exit
     Let's go to the VM networking tab, here we click "Add a new inbound security role"
     
     <p align="center">
-    <img title="" src="img\5%20(25).png" alt="5 (25).png" width="619">
+    <img title="" src="../img/5%20(25).png" alt="5 (25).png" width="619">
     </p>
 
 17. Open the port 80 to any IP in order to server the content to any client.
     
     <p align="center">
-    <img title="" src="img\5%20(26).png" alt="5 (26).png" width="351">
+    <img title="" src="../img/5%20(26).png" alt="5 (26).png" width="351">
     </p>
 
 18. Ta-da!!! Our Apache web server is working and serving a default webpage.
     
     <p align="center">
-    <img src="img\5%20(27).png" title="" alt="5 (27).png" width="632">
+    <img src="../img/5%20(27).png" title="" alt="5 (27).png" width="632">
     </p>
 
 ## Part 2: Network peering and health-check
@@ -227,13 +227,13 @@ We have finished the first part, we have deployed our own webpage but now what w
 1. Before deploying another machine, lets interconnect both virtual networks using peering functions in virtual networks tab.
    
    <p align="center">
-   <img title="" src="img\5%20(30).png" alt="5 (30).png" width="658">
+   <img title="" src="../img/5%20(30).png" alt="5 (30).png" width="658">
    </p>
 
 2. Apply the following configuration:
    
    <p align="center">
-   <img title="" src="img\5%20(31).png" alt="5 (31).png" width="533">
+   <img title="" src="../img/5%20(31).png" alt="5 (31).png" width="533">
    </p>
 
 3. Repeat the previous steps (6-10) to create another VM but this time in US, same size, same disks, change the name to us-vm1, and of course the virtual network shall be the US one.
@@ -241,23 +241,23 @@ We have finished the first part, we have deployed our own webpage but now what w
 4. Once the machine is deployed go to both machines and edit NSGs in the networking tab, this time allow the ICMP protocol, this will be the healthcheck of our service
    
    <p align="center">
-   <img src="img\5%20(32).png" title="" alt="5 (32).png" width="644">
+   <img src="../img/5%20(32).png" title="" alt="5 (32).png" width="644">
    </p>
 
 5. SSH into the US machine and try to ping the EU one, you can do it in both ways, with the internal private IPs or the external public IPs. Remember you can get this data from the networking tab of each machine.
    
    <p align="center">
-   <img src="img\5%20(33).png" title="" alt="5 (33).png" width="474">
+   <img src="../img/5%20(33).png" title="" alt="5 (33).png" width="474">
    </p>
 
 6. If you executed everything correctly you will see something like this, and around 110ms between US and EU regions.
 
 <p align="center">
-<img src="img\5%20(34).png" title="" alt="5 (34).png" width="425">
+<img src="../img/5%20(34).png" title="" alt="5 (34).png" width="425">
 </p>
 
 7. This is the farewell of this practice, remember to delete both machines when you finish to avoid extra charge.
 
 <p align="center">
-<img title="" src="img\5%20(36).png" alt="5 (36).png" width="691">
+<img title="" src="../img/5%20(36).png" alt="5 (36).png" width="691">
 </p>

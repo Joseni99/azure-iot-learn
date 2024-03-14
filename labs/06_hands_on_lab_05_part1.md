@@ -34,28 +34,28 @@ The idea is to set up a Raspberry PI to send this data but the company also want
 
 1. Download the Pi Imager tool and plug the micro sd card to install a O.S.
 
-<img title="" src="img\rasp%20(2).png" alt="rasp (2).png" width="476">
+<img title="" src="../img/rasp%20(2).png" alt="rasp (2).png" width="476">
 
 2. After selecting the device and the O.S click on edit settings after clicking next.
 
-<img title="" src="img\rasp%20(3).png" alt="rasp (3).png" width="475">
+<img title="" src="../img/rasp%20(3).png" alt="rasp (3).png" width="475">
 
 3. Here some key parts, set a User and a Password and write it down, also configure the Wireless LAN configuration.
 
-<img title="" src="img\rasp%20(4).png" alt="rasp (4).png" width="375">
+<img title="" src="../img/rasp%20(4).png" alt="rasp (4).png" width="375">
 
 4. Allow SSH in services to remote access the raspberry PI and click save.
 
-<img title="" src="img\rasp%20(5).png" alt="rasp (5).png" width="374">
+<img title="" src="../img/rasp%20(5).png" alt="rasp (5).png" width="374">
 
 5. Click on YES and wait to finish.
 
-<img title="" src="img\rasp%20(6).png" alt="rasp (6).png" width="472">
+<img title="" src="../img/rasp%20(6).png" alt="rasp (6).png" width="472">
 
 6. Identify yout IP address and SSH into the Raspberry PI
 
-<img src="img\rasp%20(7).png" title="" alt="rasp (7).png" width="565">
+<img src="../img/rasp%20(7).png" title="" alt="rasp (7).png" width="565">
 
 
 
-<img title="" src="img\mqttx.png" alt="mqttx.png" width="699">
+<img title="" src="../img/mqttx.png" alt="mqttx.png" width="699">
