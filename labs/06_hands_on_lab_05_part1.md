@@ -26,6 +26,8 @@ The idea is to set up a Raspberry PI to send this data but the company also want
 
     4. Modify the NSGs.
 
+    5. Use MQTTX to send and receive data in the computer.
+
 ## PART 1: Public MQTT
 
 ### Set up the raspberry PI
@@ -46,8 +48,14 @@ The idea is to set up a Raspberry PI to send this data but the company also want
 
 <img title="" src="img\rasp%20(5).png" alt="rasp (5).png" width="374">
 
+5. Click on YES and wait to finish.
+
 <img title="" src="img\rasp%20(6).png" alt="rasp (6).png" width="472">
 
+6. Identify yout IP address and SSH into the Raspberry PI
+
 <img src="img\rasp%20(7).png" title="" alt="rasp (7).png" width="565">
+
+
 
 <img title="" src="img\mqttx.png" alt="mqttx.png" width="699">
