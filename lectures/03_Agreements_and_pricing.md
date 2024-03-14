@@ -17,7 +17,7 @@ https://www.microsoft.com/licensing/docs/view/Service-Level-Agreements-SLA-for-O
 Azure's SLAs are comprehensive, covering a wide array of services from virtual machines to storage and networking. By understanding the commitments made by Microsoft in these SLAs, organizations can make informed decisions about service selection based on their specific requirements.
 
 <p align="center">
-<img title="" src="img/31_slacontents.png" alt="31_slacontents.png" width="445">
+<img title="" src="../img/31_slacontents.png" alt="31_slacontents.png" width="445">
 </p>
 
 &nbsp;
@@ -27,7 +27,7 @@ Azure's SLAs are comprehensive, covering a wide array of services from virtual m
 Azure SLAs commonly include metrics such as uptime percentage, response times, and data durability. It's crucial to grasp how these metrics are measured and reported, as this knowledge empowers organizations to assess the performance and reliability of their Azure services.
 
 <p align="center">
-<img title="" src="img/32_slametrics.png" alt="32_slametrics.png" width="630">
+<img title="" src="../img/32_slametrics.png" alt="32_slametrics.png" width="630">
 </p>
 
 &nbsp;
@@ -39,7 +39,7 @@ Let's examine real-world scenarios where adherence to SLAs has been pivotal. Whe
 This is an example of an azure architecture with serveral resources, but let's focus only on the Azure SQL databases in this exercise. It doesn't matter that we don't know what a database is, for now we will treat it as a simple service with a contracted agreement.
 
 <p align="center">
-<img src="img/33_slaexercise.png" title="" alt="33_slaexercise.png" width="550">
+<img src="../img/33_slaexercise.png" title="" alt="33_slaexercise.png" width="550">
 </p>
 
 &nbsp;

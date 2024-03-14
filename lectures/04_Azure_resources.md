@@ -9,7 +9,7 @@ But first some definitions of basic concepts:
 **Azure Active Directory:** Is Microsoft's cloud-based identity and access management service. Azure Active Directory is designed to help organizations manage and secure user identities and access to applications and resources in the cloud. Nowadays is renamed to Azure Entra ID.
 
 <p align="center">
-<img title="" src="img/30_resources.png" alt="30_resources.png" width="383">
+<img title="" src="../img/30_resources.png" alt="30_resources.png" width="383">
 </p>
 
 1. **Management Groups**
@@ -33,7 +33,7 @@ At the lowest level of the hierarchy are individual **resources**. These are the
 In our case, if we access the management groups:
 
 <p align="center">
-<img title="" src="img/31_resourceg.png" alt="31_resourceg.png" width="645">
+<img title="" src="../img/31_resourceg.png" alt="31_resourceg.png" width="645">
 </p>
 
 We can check that there is the tenant root group, which in turn is assigned to our Azure for Students subscription containing the credits we will utilize for conducting our laboratory.
