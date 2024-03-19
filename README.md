@@ -45,15 +45,27 @@
 10. [Hands-On Lab 02](labs/03_hands_on_lab_02.md)
     
     - Practical exercise about Virtual Networks and Virtual Machines.
-	
+
 11. [Azure Databases](lectures/08_Azure_databases.md)
     
     - Basic introduction to Azure Databases services
-	
+
 12. [Hands-On Lab 03](labs/04_hands_on_lab_03.md)
     
     - Practical exercise about Azure SQL databases.
-	
+
 13. [Hands-On Lab 04](labs/05_hands_on_lab_04.md)
     
     - Practical exercise about pricing, logging, monitoring and alarms.
+
+14. [Hands-On Lab 05 Part 1](labs/06_hands_on_lab_05_part1.md)
+    
+    - Extensive practice using a Raspberry Pi with a Sensor Hat to send and recive data to a public MQTT broker and deploying a private broker using Mosquitto.
+
+15. [Hands-On Lab 05 Part 2](labs/07_hands_on_lab_05_part2.md)
+    
+    - Migrating the part 1 of the lab to Azure using IoT Hub, Data Stream Jobs (ETLs), Azure SQL databases and Managed Grafana.
+
+16. [Farewell](lectures/09_Farewell.md)
+    
+    - Acknowledgements and some notes.

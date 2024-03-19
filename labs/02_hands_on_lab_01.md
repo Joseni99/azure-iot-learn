@@ -65,7 +65,7 @@ The resource group stores metadata about the resources. Therefore, when you spec
 Download a test image in Cloud Shell to store it in our container.
 
 ```
-wget -O kitty.png https://en.wikipedia.org/wiki/Hello_Kitty#/media/File:Hello_kitty_character_portrait.png
+wget -O kitty.png https://upload.wikimedia.org/wikipedia/en/0/05/Hello_kitty_character_portrait.png
 ```
 
 Configure the variables of our container. Please change the storage account to yours.
