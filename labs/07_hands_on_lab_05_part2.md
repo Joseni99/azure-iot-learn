@@ -115,7 +115,7 @@
 
 We should be seeing messages coming in the Cloud Shell and messages in the PiHat display. 
 
-### 3. Implement Stream Analytics:
+### 4. Implement Stream Analytics:
 
 1. Lets move all the data that IoT Hub is receiving to the SQL database we have created in the Database lab.
    
@@ -264,7 +264,9 @@ We should be seeing messages coming in the Cloud Shell and messages in the PiHat
      dbo.raspiiot
    ```
 
-![iohub (33).png](../img/iohub%20(33).png)
+<p align="center">
+<img src="../img/iohub%20(32).png" title="" alt="iohub (33).png" width="704">
+</p>
 
 8. Click on apply and observe the graphs, again you can exhale some warm air to the Raspberry hat to modify the humidity and temperature values.
 
