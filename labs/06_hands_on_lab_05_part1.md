@@ -86,6 +86,10 @@ git clone -b pre https://github.com/Joseni99/azure-iot-learn.git
 pip install azure-iot-device
 ```
 
+```
+pip install --upgrade typing-extensions
+```
+
 9. Try to publish into a MQTT Broker using the broker.py
 
 The idea is to use a public MQTT broker to publish sensor data in a topic1 and suscribe to a topic2 to receive data and print it in the PiHAT.
